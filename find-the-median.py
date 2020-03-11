@@ -1,0 +1,5 @@
+input()
+lst=list(map(int,input().split()))
+length=len(lst)
+lst.sort()
+print(lst[length//2])
