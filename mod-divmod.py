@@ -1,0 +1,6 @@
+n=int(input())
+m=int(input())
+p=divmod(n,m)
+print(p[0])
+print(p[1])
+print(p)
